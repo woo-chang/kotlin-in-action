@@ -1,8 +1,12 @@
 package Chapter01;
 
-import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
 
-@Data
+@Getter
+@EqualsAndHashCode
+@ToString
 public class PersonDto {
 
     private final String name;
